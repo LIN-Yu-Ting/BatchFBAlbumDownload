@@ -51,7 +51,7 @@ function getCaption(){
 };
 
 function nextImage(){
-    document.querySelector('[aria-label="下一張相片"]').click();
+    document.querySelector('[aria-label="上一張相片"]').click();
     iter++;
     if (iter < MAXITER) {
         setTimeout(function(){
